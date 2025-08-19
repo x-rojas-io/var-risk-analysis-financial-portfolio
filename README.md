@@ -22,8 +22,7 @@ The work demonstrates how **data science and machine learning techniques** can b
 ### What is VaR?
 Value at Risk (VaR) measures the maximum expected portfolio loss over a specified horizon at a given confidence level.  
 
-`
-VaR_{\alpha}(X) = \inf \{ x \in \mathbb{R} : P(X \leq x) \geq \alpha \}`
+`VaRα(X) = inf { x ∈ R : P(X ≤ x) ≥ α }`
 
 Example: A 1-day 99% VaR of **-$2M** means there is only a **1% chance** the portfolio loses more than $2M in a single day.  
 
@@ -64,7 +63,7 @@ Example: A 1-day 99% VaR of **-$2M** means there is only a **1% chance** the por
 - **Source:** Yahoo Finance (`yfinance`)  
 - **Frequency:** Daily prices  
 - **Period:** 2010–2025 (~15 years)  
-- **Returns:** Log returns, `( r_t = \ln \frac{P_t}{P_{t-1}} )`  
+- **Returns:** Log returns, `r_t = ln(P_t / P_{t-1})`  
 
 ---
 
